@@ -28,10 +28,11 @@ char* string_concat(const char* a, const char* b){
 	return string;
 }
 
-int main(void) {
-	char *string = string_concat("Hola", " mundo cruel");
-
-	puts(string);
-	return EXIT_SUCCESS;
-}
+/*
+ * int main(void) {
+ * 	char *string = string_concat("Hola", " mundo cruel");
+ * 	puts(string);
+ * 	return EXIT_SUCCESS;
+ * }
+*/
 
